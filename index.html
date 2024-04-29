@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Collector</title>
+    <script src="pokecrud.js" defer></script>
+    <script src="lib/jquery-3.7.1.js"></script>
+    <link rel="stylesheet" href="pokecss.css">
+</head>
+<body>
+
+    <div id="screen">
+
+        <img src="img/grid.png" id="grid" alt="grid lines" style= "pointer-events: none;">
+
+        <div id="display"></div>
+
+        <div id="edDelBtns">
+
+            <button id="editBtn">EDIT</button>
+
+            <button id="deleteBtn">DELETE</button>
+
+        </div>
+
+        <div id="editPokeInfo"></div>
+
+        <button id="createBtn">CREATE</button>
+
+        <div id="createMenu">
+
+            <p>Add a Pokemon to your Box</p> 
+
+            <select id="pokemon-selection"></select><br><br>
+
+            <button id="addButton">ADD POKEMON</button>
+
+        </div>
+
+        <div id="sprites"></div>
+
+    </div>
+
+    <div id="background"></div>
+    
+</body>
+</html>
